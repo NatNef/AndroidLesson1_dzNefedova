@@ -10,47 +10,51 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
-
+        android:inputType="textMultiLine"
+        android:hint="Текст"
         />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
+        android:hint="ФИО"
         />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="phone"
+        android:hint="Телефон"
         />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="textPostalAddress"
+        android:hint="Адрес"
         />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
+        android:hint="E-mail"
       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Пароль"
+        />
 
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
 
-<!--    // нужно разбираться с атрибутами, пока не понятно -->
-<!--    что к чему можно применить-->
 
 
 
